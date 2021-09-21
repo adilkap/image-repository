@@ -7,7 +7,6 @@ The application also has a very basic frontend using webpack which can be built 
 In accordance with the submission specifications, the application does the following:
 1. User Sign-Up
 2. User Login
-3. User Sign-out
 4. Add Image [upload via S3 Bucket]
 5. Delete Image
 6. Retrieve Image
@@ -50,4 +49,21 @@ rails routes
 rails s
 ```
 
+## API's
 
+These can also be viewed using the ```rails routes``` command above.
+These endpoints can also be accessed after starting the rails server using Postman or Curl.
+
+| Type | Endpoint | Purpose
+| ------------- | ------------- | ------------ |
+| POST  | /users | Creates a new user |
+| POST  | /login | Login for existing user | 
+| POST | /api/v1/images | Add an image  |
+| GET  | api/v1/images | Retrieve all current images |
+| GET  | api/v1/images/{id} | Retrieve an image by id |
+| PUT  | api/v1/images/{id} | Edit an image by id |
+| DELETE  | api/v1/images/{id} | Delete an image by id |
+| GET  | /s3_url | Retrieves url to upload image to s3 |
+
+
+Thank you for time in viewing my application!
