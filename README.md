@@ -67,4 +67,3 @@ These endpoints can also be accessed after starting the rails server using Postm
 
 
 Thank you for time in viewing my application!
-![image](https://user-images.githubusercontent.com/59031442/135184241-bbb57f73-703d-4ed9-82a5-2d7aff0dc9af.png)
